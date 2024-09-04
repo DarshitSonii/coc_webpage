@@ -1,0 +1,134 @@
+*{
+    background-color: #f3f3f3;
+    color: #333;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+    background-color: #333;
+}
+nav{
+    margin-right: 100px;
+}
+nav ul {
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+    background-color: #333;
+}
+
+nav ul li a {
+    margin-left: 25px;
+    font-size: 26px;
+    text-decoration: none;
+    background-color: #333;
+    color: #f3f3f3;
+}
+
+section img{
+    position: fix;
+    max-width: 100%;
+}
+main h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+ 
+main p{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+footer {
+    background-color: white;
+    align-items: center;
+}
+
+footer p{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+footer h2{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+footer button{
+    color: white;
+    border-radius: 1em;
+    border: 0;
+    text-align: center;
+    height: 7vh; 
+    margin-left: 40%;
+    margin-right: -40%;
+    background-color: orangered;
+}
+main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main ul li {
+    padding: 10px;
+    text-align: center; 
+}
+
+main ul li img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 10px 0;
+    object-fit: cover;
+    border-radius: 8px; 
+    display: inline-block; 
+}
+
+
+@media (min-width: 700px) {
+    main ul li img {
+        max-width: 45%; 
+    }
+}
+
+
+@media (min-width: 900px) {
+    main ul li img {
+        max-width: 30%; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    main ul li img {
+        max-width: 22%;
+    }
+}
+
+@media (min-width: 1800px) {
+    main ul li img {
+        max-width: 18%; 
+    }
+}
